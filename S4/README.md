@@ -5,7 +5,7 @@ The objective of this exercise is to take a CNN and optimize it to attain an acc
 
 ### Architecture
 
-![architecture](images/architecture.PNG)
+![architecture](images/architecture.png)
 
 
 ### Bad Network
