@@ -5,7 +5,7 @@ The objective of this exercise is to take a CNN and optimize it to attain an acc
 
 ### Architecture
 
-![architecture](architecture.PNG)
+![architecture](images/architecture.PNG)
 
 
 ### Bad Network
@@ -22,7 +22,7 @@ Before ReLU we see that the network uses ReLU. We should not use any other step 
 
 The 1st model architecture has 3 blocks having 2,2,3 convolutions respectively. Which is not bad, but in order to achieve 99.4% as validation accuracy we need a better architecture than this. In the MNIST dataset we can identify Edges and Gradients significantly at a Receptive Field of 7.
 
-![eng](eng.png)
+![eng](images/eng.png)
 
 Hence we will add 3 Convolutions to the 1st block; followed by max-pooling.
 
@@ -39,13 +39,13 @@ Added Batch Normalization after every convolution layer to Normalize the channel
 
 Added Dropout to the model which randomly makes a porion of channel values to 0 and helps the Network to not model noise or overfitting. This is also called as Regularization.
 
-![dropout](dropout.png)
+![dropout](images/dropout.png)
 
 #### 6. Global Average Pooling
 
 Finally adding GAP(Global Average Pooling) to reduce the final convolution to one-hot vectors by averaging the channel values.
 
-![gap](gap.png)
+![gap](images/gap.png)
 
 
 After all the changes made the network is able to reach **99.47%** of validation accuracy with just **13402** parameters in less than **20** epochs!!
