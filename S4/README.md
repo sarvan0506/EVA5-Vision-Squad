@@ -26,18 +26,22 @@ The 1st model architecture has 3 blocks having 2,2,3 convolutions respectively. 
 
 Hence we will add 3 Convolutions to the 1st block; followed by max-pooling.
 
+#### 3. Reducing the number of channels
 
-#### 3. Adding Batch Normalization
+MNIST is a quite an easy dataset and it does not require too many channels to learn the digits hence we reduce the channel number to 16 across the layers.
+
+
+#### 4. Adding Batch Normalization
 
 Added Batch Normalization after every convolution layer to Normalize the channel values with mean and standard deviation of the executed batch, this helps the channels to retain useful information without exploding or vanishing the channel values due to back to back matrix multiplication in the form of Convolutions
 
-#### 4. Adding Dropout
+#### 5. Adding Dropout
 
 Added Dropout to the model which randomly makes a porion of channel values to 0 and helps the Network to not model noise or overfitting. This is also called as Regularization.
 
 ![dropout](dropout.png)
 
-#### 5. Global Average Pooling
+#### 6. Global Average Pooling
 
 Finally adding GAP(Global Average Pooling) to reduce the final convolution to one-hot vectors by averaging the channel values.
 
