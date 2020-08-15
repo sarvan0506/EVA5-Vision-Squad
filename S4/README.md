@@ -5,4 +5,4 @@ The objective of this exercise is to take a CNN and optimize it to attain an acc
 
 ### Architecture
 
-![architecture](architecture.png)
+![architecture](architecture.PNG)
