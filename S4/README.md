@@ -22,7 +22,7 @@ Before ReLU we see that the network uses ReLU. We should not use any other step 
 
 The 1st model architecture has 3 blocks having 2,2,3 convolutions respectively. Which is not bad, but in order to achieve 99.4% as validation accuracy we need a better architecture than this. In the MNIST dataset we can identify Edges and Gradients significantly at a Receptive Field of 7.
 
-![eng](eng.PNG)
+![eng](eng.png)
 
 Hence we will add 3 Convolutions to the 1st block; followed by max-pooling.
 
