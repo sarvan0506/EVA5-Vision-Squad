@@ -1,6 +1,6 @@
 ## Neural_Network_Optimization
 
-The objective of this exercise is to take a CNN and optimize it to attain an accuracy of **99.4%** on *MNIST dataset* with less than *10K* model parameters in *15 epochs*.
+The objective of this exercise is to take a CNN and optimize in a step by step manner it to attain an accuracy of **99.4%** consistently on *MNIST dataset* with less than *10K* model parameters in *15 epochs*.
 
 The target is achieved in a step by step manner by tuning and observing the model's performance.
 
