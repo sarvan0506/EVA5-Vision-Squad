@@ -1,4 +1,7 @@
-def val(model, device, val_loader, losses, accuracies, incorrect_samples):
+import torch
+import torch.nn.functional as F
+
+def test(model, device, val_loader, losses, accuracies, incorrect_samples):
     model.eval()
     val_loss = 0
     correct = 0

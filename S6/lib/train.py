@@ -1,3 +1,8 @@
+from tqdm import tqdm
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 def train(model, device, train_loader, optimizer, epoch, l1_factor):
     model.train()
     pbar = tqdm(train_loader)

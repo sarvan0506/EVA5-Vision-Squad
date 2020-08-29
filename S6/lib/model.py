@@ -2,7 +2,7 @@
 from __future__ import print_function
 import torch.nn as nn
 import torch.nn.functional as F
-
+import lib.regularizing as rg
 
 class Net(nn.Module):
     def __init__(self, bn="None", dropout=0, num_splits=4):
@@ -33,14 +33,14 @@ class Net(nn.Module):
             conv = nn.Sequential(
                 nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size),
                 nn.ReLU(),
-                BatchNorm(out_channels),
+                rg.BatchNorm(out_channels),
                 nn.Dropout(dropout)
             )
         elif bn == "GBN":
             conv = nn.Sequential(
                 nn.Conv2d(in_channels=in_channels, out_channels=out_channels, kernel_size=kernel_size),
                 nn.ReLU(),
-                GhostBatchNorm(out_channels, num_splits),
+                rg.GhostBatchNorm(out_channels, num_splits),
                 nn.Dropout(dropout)
             )
         else:
