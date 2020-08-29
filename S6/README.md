@@ -39,11 +39,11 @@ GBN is a technique which allows the batch normalization to work even in small ba
 
 ## Loss
 
-![loss](images/loss_change.png) 
+![loss](loss_change.png) 
 
 ## accuracy
 
-![accuracy](images/accuracy_change.png) 
+![accuracy](accuracy_change.png) 
 
 ## Missclassified images by L1 + L2 + GBN
 
