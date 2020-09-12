@@ -41,4 +41,4 @@ validation accuracy
 
 25 missclassified images by the model
 
-![incorrect_predictions]([prediction]/incorrect_predictions.png)
+![incorrect_predictions](predictions/incorrect_predictions.png)
