@@ -14,15 +14,18 @@ The model uses,
 
 ![architecture](images/architecture.png)
 
-### Pointwise Convolution: 1x1 Convolution is called as pointwise convolution
+### Pointwise Convolution: 
+1x1 Convolution is called as pointwise convolution. Reduces the parameters, efficient and can be used to increase or decrease the number of channels at relatively less computational requirement than regular convolution.
 
 ![pointwise](images/pointwise.png)
 
-### Atrous Convolution: also called as dilated convolution has a dilated kernel insead of the conventional kernel. With the dilated kernel one can achieve the desired receptive field i.e. if a regular 3x3 kernel gives a receptive field jump to 5x5 from 3x3, the dilated kernel of rate 1 will give a jump of 7x7 from 5x5. changing the dilation will help in control over the receptive field. This type of convolution is used in Dense problems such as Super Resolution, Object Detection, Segmentation, Keypoint Detection etc.
+### Atrous Convolution: 
+Also called as dilated convolution has a dilated kernel insead of the conventional kernel. With the dilated kernel one can achieve the desired receptive field i.e. if a regular 3x3 kernel gives a receptive field jump to 5x5 from 3x3, the dilated kernel of rate 1 will give a jump of 7x7 from 5x5. changing the dilation will help in control over the receptive field. This type of convolution is used in Dense problems such as Super Resolution, Object Detection, Segmentation, Keypoint Detection etc.
 
 ![atrous](images/atrous.png)
 
-### Depthwise Seperable Convolution: Depthwise seperable convolution is a tactical method which splits a 3x3x32 convolution into (3x3x1)x32 followed by a 1x1 convolution. This helps in reduction of the computational requirements for the model hence uses less resource.
+### Depthwise Seperable Convolution:
+Depthwise seperable convolution is a tactical method which splits a 3x3x32 convolution into (3x3x1)x32 followed by a 1x1 convolution. This helps in reduction of the computational requirements for the model hence uses less resource. Widely used in Mobile phone gpu based models.
 
 ![depthwise](images/depthwise.png)
 
