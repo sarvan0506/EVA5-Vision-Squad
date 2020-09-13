@@ -20,7 +20,7 @@ The model uses,
 ![pointwise](images/pointwise.png)
 
 ### Atrous Convolution: 
-Also called as dilated convolution has a dilated kernel insead of the conventional kernel. With the dilated kernel one can achieve the desired receptive field i.e. if a regular 3x3 kernel gives a receptive field jump to 5x5 from 3x3, the dilated kernel of rate 1 will give a jump of 7x7 from 5x5. changing the dilation will help in control over the receptive field. This type of convolution is used in Dense problems such as Super Resolution, Object Detection, Segmentation, Keypoint Detection etc.
+Also called as dilated convolution has a dilated kernel insead of the conventional kernel. With the dilated kernel one can achieve the desired receptive field i.e. if a regular 3x3 kernel gives a receptive field jump to 5x5 from 3x3, the dilated kernel of rate 2 will give a jump of 7x7 from 5x5. changing the dilation will help in control over the receptive field. This type of convolution is used in Dense problems such as Super Resolution, Object Detection, Segmentation, Keypoint Detection etc.
 
 ![atrous](images/atrous.png)
 
