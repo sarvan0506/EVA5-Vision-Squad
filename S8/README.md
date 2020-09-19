@@ -10,6 +10,8 @@ The model reaches a maximum accuracy of **85.74%** in **37 epochs** .
 
 ## Residual block
 
+Residual blocks are basically a special case of highway networks without any gates in their skip connections. Essentially, residual blocks allows the flow of memory (or information) from initial layers to last layers.
+
 ![resnet](images/resnet.png)
 
 ## Validation Loss
@@ -22,7 +24,7 @@ The model reaches a maximum accuracy of **85.74%** in **37 epochs** .
 
 ## Missclassified Images
 
-![incorrect_predictions](incorrect_predictions.png)
+![incorrect_predictions](images/incorrect_predictions.png)
 
 
 
