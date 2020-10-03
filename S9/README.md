@@ -1,4 +1,4 @@
-# Learning Rates
+# Cutout and GradCAM
 
 The objective of this exercise is to implement a Data Augmentation technique called Cutout and implement GradCAM to visulaize the attention of the ResNet-18 model. The model reaches a maximum accuracy of **91.45%** on CIFAR-10.
 
