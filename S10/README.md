@@ -6,7 +6,7 @@ The objective of this exercise is to implement a ResNet-18 model trained with le
 
 Learning Rate finder is the effective way to find out the best starting learning rate for the DNN model hence if the learning rate is low the model could take too long to converge on ther other hand if it is too high it can escape the global minima. LR Finder helps to overcome this problem by calculating loss values for a range of arbitrary learning rates.
 
-![lr_finder](lr_finder.png)
+![lr_finder](images/lr_finder.png)
 
 ## Plateaus
 
