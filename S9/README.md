@@ -22,4 +22,10 @@ GradCAM(Gradient-weighted Class Activation Mapping) uses the gradients of a targ
 
 Some of the examples of GradCAM on misclassified images is shown below:
 
-![grad_cam](images/pred_gradcam_small.png)
+![grad_cam1](images/grad_cam_1.png)
+
+![grad_cam1](images/grad_cam_2.png)
+
+![grad_cam1](images/grad_cam_3.png)
+
+![grad_cam1](images/grad_cam_4.png)
