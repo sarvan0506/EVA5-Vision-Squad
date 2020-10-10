@@ -1,9 +1,9 @@
 import torch
 import numpy as np
 
-from tensornet.data.downloader import download_mnist, download_cifar10
-from tensornet.data.processing import Transformations, data_loader
-from tensornet.data.utils import unnormalize, normalize
+from torchwrap.data.downloader import download_mnist, download_cifar10
+from torchwrap.data.processing import Transformations, data_loader
+from torchwrap.data.utils import unnormalize, normalize
 
 
 class Dataset:

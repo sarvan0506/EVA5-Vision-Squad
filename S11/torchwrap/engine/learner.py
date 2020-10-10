@@ -1,9 +1,9 @@
 import torch
 import torch.nn.functional as F
 
-from tensornet.engine.ops.regularizer import l1
-from tensornet.data.processing import InfiniteDataLoader
-from tensornet.utils.progress_bar import ProgressBar
+from torchwrap.engine.ops.regularizer import l1
+from torchwrap.data.processing import InfiniteDataLoader
+from torchwrap.utils.progress_bar import ProgressBar
 
 
 class Learner:

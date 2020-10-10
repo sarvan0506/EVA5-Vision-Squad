@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 
-from tensornet.gradcam.gradcam import GradCAM
+from torchwrap.gradcam.gradcam import GradCAM
 
 
 class GradCAMPP(GradCAM):

@@ -1,4 +1,5 @@
 from torch.optim.lr_scheduler import StepLR, ReduceLROnPlateau, OneCycleLR
+import matplotlib.pyplot as plt
 
 
 def step_lr(optimizer, step_size, gamma=0.1, last_epoch=-1):
@@ -40,9 +41,8 @@ def reduce_lr_on_plateau(optimizer, factor=0.1, patience=10, verbose=False, min_
     )
 
 
-def one_cycle_lr(
-    optimizer, max_lr, epochs, steps_per_epoch, pct_start=0.5, div_factor=10.0, final_div_factor=10000
-):
+class OneCyclePolicy(OneCycleLR):
+    
     """Create One Cycle Policy for Learning Rate.
 
     Args:
@@ -62,8 +62,35 @@ def one_cycle_lr(
     Returns:
         OneCycleLR instance.
     """
-
-    return OneCycleLR(
-        optimizer, max_lr, epochs=epochs, steps_per_epoch=steps_per_epoch,
-        pct_start=pct_start, div_factor=div_factor, final_div_factor=final_div_factor
-    )
+    
+    def __init__(self, **kwargs):
+        
+        """
+        Passes arguments to the super class constructor, **kwargs passes
+        dynamic parameters captured at runtime.
+        """
+        
+        self.epochs = kwargs["epochs"]
+        self.steps_per_epoch = kwargs["steps_per_epoch"]
+        
+        super().__init__(**kwargs)
+        
+    
+    def plot_policy(self):
+        
+        """
+        Plots the Learning Rates Policy
+        """
+        
+        ys = []
+        for _ in range(self.epochs):
+            for _ in range(self.steps_per_epoch):
+                ys.append(self.optimizer.param_groups[0]['lr'])
+                self.step()
+        plt.figure(figsize=(10,8))
+        plt.title('OneCycleLR schedule')
+        plt.ylabel('Learning rate')
+        plt.xlabel('Step')
+        plt.plot(ys, c='red')
+        plt.show()
+        plt.savefig('ocp_plot.png')

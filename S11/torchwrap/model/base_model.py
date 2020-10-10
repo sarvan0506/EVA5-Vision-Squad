@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torchsummary
 
-from tensornet.engine.learner import Learner
+from torchwrap.engine.learner import Learner
 
 
 class BaseModel(nn.Module):

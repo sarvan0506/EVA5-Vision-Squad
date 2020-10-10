@@ -8,9 +8,9 @@ import torch
 import matplotlib.pyplot as plt
 from torch.optim.lr_scheduler import _LRScheduler
 
-from tensornet.engine.learner import Learner
-from tensornet.utils.progress_bar import ProgressBar
-from tensornet.data.processing import InfiniteDataLoader
+from torchwrap.engine.learner import Learner
+from torchwrap.utils.progress_bar import ProgressBar
+from torchwrap.data.processing import InfiniteDataLoader
 
 
 class LRFinder:

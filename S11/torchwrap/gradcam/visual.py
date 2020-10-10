@@ -3,9 +3,9 @@ import torch
 
 import matplotlib.pyplot as plt
 
-from tensornet.gradcam.gradcam import GradCAM
-from tensornet.gradcam.gradcam_pp import GradCAMPP
-from tensornet.data.utils import to_numpy, unnormalize
+from torchwrap.gradcam.gradcam import GradCAM
+from torchwrap.gradcam.gradcam_pp import GradCAMPP
+from torchwrap.data.utils import to_numpy, unnormalize
 
 
 def visualize_cam(mask, img, alpha=1.0):
