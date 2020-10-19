@@ -16,7 +16,7 @@ Object detection is a computer vision technique that allows us to identify and l
 ![od](images/od.png)
 
 
-In order to train YOLO we need to annotate the exact objects which we want to detect with bounding boxes. The dataset has been annotates using <a href="https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html">VIA</a>. This will give a ![json file](PPE.json) with the dimentions of the bounding boxes.
+In order to train YOLO we need to annotate the exact objects which we want to detect with bounding boxes. The dataset has been annotates using <a href="https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html">VIA</a>. This will give a ![json file](PPE_coco.json) with the dimentions of the bounding boxes.
 
 The json file attributes are explained below,
 
