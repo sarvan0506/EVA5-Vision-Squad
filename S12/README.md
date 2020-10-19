@@ -6,14 +6,14 @@
 
 ## Tiny ImageNet training History
 
-![tiny](images\accuracy_change.png)
+![tiny](images/accuracy_change.png)
 
 
 ## Object Detection
 
 Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. **YOLO** is one of the SOTA Object detection models currently used for various applications.
 
-![od](images\od.png)
+![od](images/od.png)
 
 
 In order to train YOLO we need to annotate the exact objects which we want to detect with bounding boxes. The dataset has been annotates using <a href="https://www.robots.ox.ac.uk/~vgg/software/via/via_demo.html">VIA</a>. This will give a ![json file](PPE.json) with the dimentions of the bounding boxes.
@@ -40,19 +40,18 @@ The json file attributes are explained below,
 
 Bounding Box selection is done by K-means clustering where k is the number of bounding boxes.
 
-![kmeans](images\kmeans_iou.png)
+![kmeans](images/kmeans_iou.png)
 
 Based on above graph we can select k = 7 and k = 8 hence after these values the rate of change is very less.
 
 ### k = 7 plots
 
-![k7cluster](images\cluster_plot_k7.png)
+![k7cluster](images/cluster_plot_k7.png)
 
-![k7anchor](images\anchor_bbox_k7.png)
+![k7anchor](images/anchor_bbox_k7.png)
 
 ### k = 8 plots
 
-![k8cluster](images\cluster_plot_k8.png)
+![k8cluster](images/cluster_plot_k8.png)
 
-![k8anchor](images\anchor_bbox_k8.png)
-
+![k8anchor](images/anchor_bbox_k8.png)
