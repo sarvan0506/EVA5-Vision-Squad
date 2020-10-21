@@ -55,3 +55,8 @@ Based on above graph we can select k = 7 and k = 8 hence after these values the 
 ![k8cluster](images/cluster_plot_k8.png)
 
 ![k8anchor](images/anchor_bbox_k8.png)
+
+## Submitted by:
+
+Saravana Alagar: sarvan0506@gmail.com
+Ravi Das Vaishnav: ravivaishnav20@gmail.com
