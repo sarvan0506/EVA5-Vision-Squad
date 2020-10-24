@@ -9,7 +9,7 @@ In this exercise we are going to dive into Object Detection
 
 Follow the steps mentioned [here](https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/). Inferece result for the COCO classes present in the custom image.
 
-![test]("standard/yolov3_pred.jpg")
+![test](standard/yolov3_pred.jpg)
 
 ## 2. Train YOLO v3 using custom dataset.
 
@@ -69,7 +69,7 @@ Place the video in YoloV3 folder and run,
 
 Click the video to play
 
-![![](http://img.youtube.com/vi/6ANEelZdHQc/1419.jpg)](https://www.youtube.com/watch?v=6ANEelZdHQc 'Construction Safety Gear Object Detection with YOLO V3')
+![video](https://www.youtube.com/watch?v=6ANEelZdHQc 'Construction Safety Gear Object Detection with YOLO V3')
 
 ### Metrics
 
