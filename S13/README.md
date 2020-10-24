@@ -69,7 +69,7 @@ Place the video in YoloV3 folder and run,
 
 Click the video to play
 
-[![](http://img.youtube.com/vi/6ANEelZdHQc/1419.jpg)](https://www.youtube.com/watch?v=6ANEelZdHQc 'Construction Safety Gear Object Detection with YOLO V3')
+![![](http://img.youtube.com/vi/6ANEelZdHQc/1419.jpg)](https://www.youtube.com/watch?v=6ANEelZdHQc 'Construction Safety Gear Object Detection with YOLO V3')
 
 ### Metrics
 
