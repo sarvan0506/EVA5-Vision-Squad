@@ -9,7 +9,7 @@ In this exercise we are going to dive into Object Detection
 
 Follow the steps mentioned [here](https://pysource.com/2019/06/27/yolo-object-detection-using-opencv-with-python/). Inferece result for the COCO classes present in the custom image.
 
-![inference]("standard/yolov3_pred.jpg")
+![test]("standard/yolov3_pred.jpg")
 
 ## 2. Train YOLO v3 using custom dataset.
 
