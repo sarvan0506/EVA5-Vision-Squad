@@ -26,7 +26,7 @@ Use the annotation tool from https://github.com/miki998/YoloV3_Annotation_Tool t
 
 ### Initializing model with Pre-Trained weights
 
-Download  `yolov3-spp-ultralytics.pt` from this [link](https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0) and place it in [this](YoloV3/weights) directory.
+Download  `yolov3-spp-ultralytics.pt` from this [link](https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0) and place it in `YoloV3/weights` directory.
 
 Follow the folder structure under `data/customdata` folder
 
