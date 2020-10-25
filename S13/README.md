@@ -38,8 +38,8 @@ Parameters used,
 2. epochs 300
 3. images 3500
 4. Change the cfg/yolov3_custom.cfg parameters as
-    -- filters=(4[BBx dim]+1[objectness]+4[# of BBx]) * 3[# of Anchor Boxes] in all convolution sections above [yolo]
-    -- classes=4[# of classes] in all [yolo] sections
+    * filters=(4[BBx dim]+1[objectness]+4[# of BBx]) * 3[# of Anchor Boxes] in all convolution sections above [yolo]
+    * classes=4[# of classes] in all [yolo] sections
 
 `$ python3.6 train.py --data data/customdata/custom.data --batch 16 --cache --cfg cfg/yolov3-custom.cfg --epochs 300`
 
