@@ -37,7 +37,7 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
         |-- depth_img2.png  
         |-- depth_img3.png  
         |-- ...  
-    |--/planer_images  
+    |--/planer_images  (from PlanerCNN)
         |-- planer_img1.png  
         |-- planer_img1.png  
         |-- planer_img1.png  
