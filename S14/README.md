@@ -22,7 +22,7 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 ```bash
 /dataset
-    |--/images (Raw images)
+    |--/images (Normal images)
         |-- img1.jpg  
         |-- img2.jpg  
         |-- img3.jpg  
@@ -52,7 +52,7 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 ### Display Sample Images
 
-#### 1. Original Images
+#### 1. Normal Images
 
 ![original](original_images_grid.png)
 
