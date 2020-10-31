@@ -8,7 +8,7 @@ Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.
 
 [![Watch the video](http://i3.ytimg.com/vi/JhJbKoJb_fs/maxresdefault.jpg)](https://www.youtube.com/watch?v=JhJbKoJb_fs 'What Autopilot sees?')
 
-## Data preparation for Capstone Project
+## Part II: Data preparation for Capstone Project
 
 Please refer to the ` dataset` folder to have a look at the dataset sample images. The dataset constitutes of 3 different input types which are,
 
@@ -20,6 +20,7 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 ### Folder Structure
 
+```bash
 /dataset
     |-- /images *(Raw images)*  
         |-- img1.jpg  
@@ -46,7 +47,8 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
     |-- train.shapes *(Pixel Resolution of train images)*  
     |-- test.shapes *(Pixel Resolution of test images)*  
     |-- train.txt *(Train image paths)*  
-    |-- test.txt *(Test image paths)*  
+    |-- test.txt *(Test image paths)*
+```
 
 ### Display Sample Images
 
