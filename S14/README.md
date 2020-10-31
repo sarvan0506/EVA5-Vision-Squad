@@ -13,8 +13,8 @@ Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.
 Please refer to the ` dataset` folder to have a look at the dataset sample images. The dataset constitutes of 3 different input types which are,
 
 1. Normal Images with Bounding Boxes for classes (hardhat, vest, mask, boots)
-2. Depth images inferenced from [MiDAS](https://github.com/intel-isl/MiDaS)
-3. Planer images inferenced from [PlanerCNN](https://github.com/NVlabs/planercnn)
+2. Depth images inferenced from Normal Images using [MiDAS](https://github.com/intel-isl/MiDaS)
+3. Planer images inferenced from Normal Images using [PlanerCNN](https://github.com/NVlabs/planercnn)
 
 The complete dataset can be accessed here https://drive.google.com/drive/folders/14zw_X1ImyOo71jEGyxT7ARxVV8t1rYDU
 
