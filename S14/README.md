@@ -22,22 +22,22 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 ```bash
 /dataset
-    |-- /images (Raw images)
+    |--/images (Raw images)
         |-- img1.jpg  
         |-- img2.jpg  
         |-- img3.jpg  
         |-- ...  
-    |-- /labels (Bounding box dimensions)  
+    |--/labels (Bounding box dimensions)  
         |-- img1.txt  
         |-- img2.txt  
         |-- img3.txt  
         |-- ...  
-    |-- /depth_images (from MiDAS)  
+    |--/depth_images (from MiDAS)  
         |-- depth_img1.png  
         |-- depth_img2.png  
         |-- depth_img3.png  
         |-- ...  
-    |-- /planer_images  
+    |--/planer_images  
         |-- planer_img1.png  
         |-- planer_img1.png  
         |-- planer_img1.png  
