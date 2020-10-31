@@ -2,7 +2,7 @@
 
 ## Part-I: Optional Assignment
 
-Experiment with maskRCNN and feed a video to ![Detectron2](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5?usp=sharing) and upload results.
+Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5?usp=sharing) and upload results.
 
 **Click the video to play**
 
@@ -13,8 +13,8 @@ Experiment with maskRCNN and feed a video to ![Detectron2](https://colab.researc
 Please refer to the ` dataset` folder to have a look at the dataset sample images. The dataset constitutes of 3 different input types which are,
 
 1. Normal Images with Bounding Boxes for classes (hardhat, vest, mask, boots)
-2. Depth images inferenced from ![MiDAS](https://github.com/intel-isl/MiDaS)
-3. Planer images inferenced from ![PlanerCNN](https://github.com/NVlabs/planercnn)
+2. Depth images inferenced from [MiDAS](https://github.com/intel-isl/MiDaS)
+3. Planer images inferenced from [PlanerCNN](https://github.com/NVlabs/planercnn)
 
 The complete dataset can be accessed here https://drive.google.com/drive/folders/14zw_X1ImyOo71jEGyxT7ARxVV8t1rYDU
 
@@ -52,15 +52,15 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 #### 1. Original Images
 
-![original]("original_images_grid.png")
+![original](original_images_grid.png)
 
 #### 2. Depth Images
 
-![depth]("depth_images_grid.png")
+![depth](depth_images_grid.png)
 
 #### 3. Planer Images
 
-![planer]("planer_images_grid.png)
+![planer](planer_images_grid.png)
 
 ## Submitted By
 
