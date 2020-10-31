@@ -1,4 +1,4 @@
-# Dataset Preparation for S15 and MaskRCNN
+# Dataset Preparation for Capstone Project and Inferencing using Detectron 2
 
 ## Part-I: Optional Assignment
 
@@ -10,11 +10,13 @@ Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.
 
 ## Part II: Data preparation for Capstone Project
 
-Please refer to the ` dataset` folder to have a look at the dataset sample images. The dataset constitutes of 3 different input types which are,
+This part includes Dataset preparation for Capstone project, dataset represents 4 classes (hardhat, vest, mask, boots) and has been collected from google images ~3500 in number. The dataset constitutes of 3 different input types which are,
 
 1. Normal Images with Bounding Boxes for classes (hardhat, vest, mask, boots)
 2. Depth images inferenced from Normal Images using [MiDAS](https://github.com/intel-isl/MiDaS)
 3. Planer images inferenced from Normal Images using [PlanerCNN](https://github.com/NVlabs/planercnn)
+
+Please refer to the `dataset` folder to have a look at the dataset sample images.
 
 The complete dataset can be accessed here https://drive.google.com/drive/folders/14zw_X1ImyOo71jEGyxT7ARxVV8t1rYDU
 
