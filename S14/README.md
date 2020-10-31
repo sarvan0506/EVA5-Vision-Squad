@@ -22,17 +22,17 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 ```bash
 /dataset
-    |-- /images *(Raw images)*  
+    |-- /images (Raw images)
         |-- img1.jpg  
         |-- img2.jpg  
         |-- img3.jpg  
         |-- ...  
-    |-- /labels *(Bounding box dimensions)*  
+    |-- /labels (Bounding box dimensions)  
         |-- img1.txt  
         |-- img2.txt  
         |-- img3.txt  
         |-- ...  
-    |-- /depth_images *(from MiDAS)*  
+    |-- /depth_images (from MiDAS)  
         |-- depth_img1.png  
         |-- depth_img2.png  
         |-- depth_img3.png  
@@ -42,19 +42,19 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
         |-- planer_img1.png  
         |-- planer_img1.png  
         |-- ...  
-    |-- custom.data *(explaining no. of classes and train/test file reference)*  
-    |-- custom.names *(class names)*  
-    |-- train.shapes *(Pixel Resolution of train images)*  
-    |-- test.shapes *(Pixel Resolution of test images)*  
-    |-- train.txt *(Train image paths)*  
-    |-- test.txt *(Test image paths)*
+    |-- custom.data (explaining no. of classes and train/test file reference)  
+    |-- custom.names (class names)  
+    |-- train.shapes (Pixel Resolution of train images)  
+    |-- test.shapes (Pixel Resolution of test images)  
+    |-- train.txt (Train image paths)  
+    |-- test.txt (Test image paths)
 ```
 
 ### Display Sample Images
 
 #### 1. Original Images
 
-![original](original_images_grid.png)
+![original](original_image_grid.png)
 
 #### 2. Depth Images
 
