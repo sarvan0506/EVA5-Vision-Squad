@@ -10,7 +10,7 @@ Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.
 
 ## Part II: Data preparation for Capstone Project
 
-This part includes Dataset preparation for Capstone project, dataset represents 4 classes (hardhat, vest, mask, boots) and has been collected from google images ~3500 in number. The dataset constitutes of 3 different input types which are,
+This part includes Dataset preparation for Capstone project, dataset has ~3500 images of 4 classes (hardhat, vest, mask, boots), collected from google images. The dataset constitutes of 3 different input types which are,
 
 1. Normal Images with Bounding Boxes for classes (hardhat, vest, mask, boots)
 2. Depth images inferenced from Normal Images using [MiDAS](https://github.com/intel-isl/MiDaS)
@@ -65,6 +65,8 @@ Dark region is farthest and bright region is nearest.
 ![depth](depth_image_grid.png)
 
 #### 3. Planer Images
+
+Plane masks are differentiated by colors
 
 ![planer](planer_images_grid.png)
 
