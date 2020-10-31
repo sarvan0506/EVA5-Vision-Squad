@@ -54,13 +54,13 @@ The complete dataset can be accessed here https://drive.google.com/drive/folders
 
 #### 1. Original Images
 
-![original](original_image_grid.png)
+![original](original_images_grid.png)
 
 #### 2. Depth Images
 
 Dark region is farthest and bright region is nearest.
 
-![depth](depth_images_grid.png)
+![depth](depth_image_grid.png)
 
 #### 3. Planer Images
 
