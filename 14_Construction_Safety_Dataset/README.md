@@ -1,6 +1,6 @@
-# Dataset Preparation for Capstone Project and Inferencing using Detectron 2
+# Dataset Preparation for Construction Safety Gears and Inferencing using Detectron 2
 
-## Part-I: Optional Assignment
+## Part-I: Detection with MaskRCNN
 
 Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.google.com/drive/16jcaJoc6bCFAQ96jDe2HwtXj7BMD_-m5?usp=sharing) and upload results.
 
@@ -8,9 +8,9 @@ Experiment with maskRCNN and feed a video to [Detectron](https://colab.research.
 
 [![Watch the video](http://i3.ytimg.com/vi/JhJbKoJb_fs/maxresdefault.jpg)](https://www.youtube.com/watch?v=JhJbKoJb_fs 'What Autopilot sees?')
 
-## Part II: Data preparation for Capstone Project
+## Part II: Data preparation for Construction Safety Gears
 
-This part includes Dataset preparation for Capstone project, dataset has ~3500 images of 4 classes (hardhat, vest, mask, boots), collected from google images. The dataset constitutes of 3 different input types which are,
+This part includes Dataset preparation for Construction Safety Gears, dataset has ~3500 images of 4 classes (hardhat, vest, mask, boots), collected from google images. The dataset constitutes of 3 different input types which are,
 
 1. Normal Images with Bounding Boxes for classes (hardhat, vest, mask, boots)
 2. Depth images inferenced from Normal Images using [MiDAS](https://github.com/intel-isl/MiDaS)
