@@ -69,8 +69,3 @@ Dark region is farthest and bright region is nearest.
 Plane masks are differentiated by colors
 
 ![planer](planer_images_grid.png)
-
-## Submitted By
-
-* Saravana Alagar: sarvan0506@gmail.com
-* Ravi Das Vaishnav: ravivaishnav20@gmail.com
